@@ -8,6 +8,7 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
+```
 import the standard libraries.
 Upload the dataset and check for any null or duplicated values using .isnull() and .duplicated() function respectively.
 Import LabelEncoder and encode the dataset.
@@ -15,6 +16,7 @@ Import LogisticRegression from sklearn and apply the model on the dataset.
 Predict the values of array.
 Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
 Apply new unknown value
+```
 
 ## Program:
 ```
@@ -73,7 +75,7 @@ classification_report1 = classification_report(y_test,y_pred)
 print(classification_report1)
 
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]]
-
+```
 
 ## Output:
 Original data(first five columns)
